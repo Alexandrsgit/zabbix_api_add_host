@@ -1,7 +1,12 @@
 # zabbix_api_add_host
-Zabbix JSONRPC 2.0 api host add script
 
 ```
 Требовалось написать скрипт, который добавляет хосты и сразу привязывает
 к template ICMP_PING по api используя JSONRPC 2.0
+```
+# Использование
+
+```
+Заполнить файл hosts_ip IP адресами хостов каждый с новой строки и запустить zabbix_add_ip,
+либо файл hosts_dns DNS адресами, в случае необходимости добавления не по IP и запустить zabbix_add_dns
 ```
